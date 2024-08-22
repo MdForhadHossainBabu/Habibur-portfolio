@@ -1,14 +1,15 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-
-
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+.navShadow {
+  box-shadow: 2px 2px aquamarine;
+}
+.wShadow {
+  box-shadow: 3px 3px 3px 3px green;
+}
 
 @layer base {
   :root {

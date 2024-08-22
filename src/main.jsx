@@ -5,9 +5,10 @@ import { router } from './layout/route'
 import { HelmetProvider } from 'react-helmet-async'
 
 createRoot(document.getElementById('root')).render(
-  <div className='container w-full'>
+  <div className='w-full bg-slate-300'>
   <HelmetProvider>
-    <RouterProvider router={router}/>
+      <RouterProvider router={router} />
+      
   </HelmetProvider>,
   </div>
 )
