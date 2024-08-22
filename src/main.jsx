@@ -5,7 +5,7 @@ import { router } from './layout/route'
 import { HelmetProvider } from 'react-helmet-async'
 
 createRoot(document.getElementById('root')).render(
-  <div className='max-w-full border-4'>
+  <div className='container w-full'>
   <HelmetProvider>
     <RouterProvider router={router}/>
   </HelmetProvider>,
