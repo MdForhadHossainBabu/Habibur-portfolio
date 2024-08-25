@@ -18,7 +18,7 @@ const Main = () => {
       <div className="right-8 bottom-4  fixed rounded-full">
         <span>
           <a href="https://wa.me/8801793741251">
-            <FaWhatsapp className="text-4xl wShadow rounded-full text-green-500" />
+            <FaWhatsapp className="text-4xl wShadow rounded-full text-green-500 bg-white" />
           </a>
         </span>
       </div>

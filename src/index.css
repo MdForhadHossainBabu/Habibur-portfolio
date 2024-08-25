@@ -8,7 +8,7 @@
   box-shadow: 2px 2px aquamarine;
 }
 .wShadow {
-  box-shadow: 3px 3px 3px 3px green;
+  box-shadow: 2px 2px 2px 2px purple;
 }
 
 @layer base {

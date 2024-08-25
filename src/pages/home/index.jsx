@@ -7,6 +7,13 @@ import { Button } from '@/components/ui/button';
 import promotion from '../../assets/p.png';
 import create from '../../assets/c.png';
 import SEO from '../../assets/s.png';
+import img1 from '../../assets/Befor.png';
+import img2 from '../../assets/Youtube channel analutic protfoleo.png';
+// import img3 from '../../assets/6.png';
+
+import img4 from '../../assets/8.png';
+
+import img5 from '../../assets/3.JPG';
 
 const Home = () => {
   return (
@@ -31,38 +38,40 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="my-12 container grid grid-cols-2 md:grid-cols-4">
+      <div className="my-12 container grid grid-cols-2 md:grid-cols-4 gap-6">
         <span className="text-4xl font-bold font-fira bg-gradient-to-br from-rose-500 to-cyan-500 inline-block text-transparent bg-clip-text">
-          <span className="flex items-center">
+          <span className="flex items-center justify-center">
             {' '}
             <CountUp end={1} duration={4} />
             <span>+</span>
           </span>
-          <h1 className="text-lg">Year Experience</h1>
+          <h1 className="text-lg justify-center flex items-center">
+            Year Experience
+          </h1>
         </span>
         <span className="text-4xl font-bold font-fira bg-gradient-to-br from-rose-500 to-cyan-500 inline-block text-transparent bg-clip-text ">
-          <span className="flex items-center">
+          <span className="flex items-center justify-center">
             {' '}
             <CountUp end={50} duration={4} />
             <span>+</span>
           </span>
-          <h1 className="text-lg"> Client</h1>
+          <h1 className="text-lg flex justify-center"> Client</h1>
         </span>
         <span className="text-4xl font-bold font-fira bg-gradient-to-br from-rose-500 to-cyan-500 inline-block text-transparent bg-clip-text">
-          <span className="flex items-center">
+          <span className="flex items-center justify-center">
             {' '}
             <CountUp end={250} duration={4} />
             <span>+</span>
           </span>
-          <h1 className="text-lg">Video (SEO)</h1>
+          <h1 className="text-lg flex justify-center">Video (SEO)</h1>
         </span>
         <span className="text-4xl font-bold font-fira bg-gradient-to-br from-rose-500 to-cyan-500 inline-block text-transparent bg-clip-text">
-          <span className="flex items-center">
+          <span className="flex items-center justify-center">
             {' '}
             <CountUp end={500} duration={4} />
             <span>+</span>
           </span>
-          <h1 className="text-lg">Video Promotion</h1>
+          <h1 className="text-lg flex justify-center">Video Promotion</h1>
         </span>
       </div>
       {/* about page */}
@@ -129,17 +138,91 @@ const Home = () => {
             </h1>
           </div>
         </div>
+        <div className="flex items-center justify-center">
+          <Button className="text-center flex items-center justify-center">
+            <Link
+              to="/service"
+              className="flex items-center justify-center text-center"
+            >
+              See All Service . . .
+            </Link>
+          </Button>
+        </div>
       </div>
 
       {/* portfolio */}
       <div>
-        <span className="flex items-center justify-center mt-12">
+        <span className="flex items-center justify-center">
           <h1 className=" mt-12 bg-gradient-to-r from-rose-600 to-cyan-600 inline-block font-nunito font-bold text-transparent bg-clip-text text-4xl my-4">
             Portfolio Projects
           </h1>
         </span>
-        <div className="container"></div>
+        <div className="container">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 mt-8 px-5 md:px-0">
+            <div className="border md:hover:scale-110 duration-500 shadow-2xl drop-shadow-2xl border-pink-500 rounded-xl">
+              <img
+                className="rounded-xl rounded-b-none border-pink-500 border"
+                src={img1}
+                alt=""
+              />
+              <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
+                Youtube Video SEO Proof
+              </h1>
+            </div>
+            <div className="border md:hover:scale-110 duration-500 shadow-2xl drop-shadow-2xl border-pink-500 rounded-xl">
+              <img
+                className="rounded-xl rounded-b-none border-pink-500 border"
+                src={img2}
+                alt=""
+              />
+              <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
+                Youtube Analytics Proof
+              </h1>
+            </div>
+            <div className="border md:hover:scale-110 duration-500 shadow-2xl drop-shadow-2xl border-pink-500 rounded-xl">
+              <img
+                className="rounded-xl rounded-b-none border-pink-500 border"
+                src={img5}
+                alt=""
+              />
+              <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
+                Google Ads Proof
+              </h1>
+            </div>
+            <div className="border md:hover:scale-110 duration-500 shadow-2xl drop-shadow-2xl border-pink-500 rounded-xl">
+              <img
+                className="rounded-xl rounded-b-none border-pink-500 border"
+                src={img4}
+                alt=""
+              />
+              <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
+                Payment Proof
+              </h1>
+            </div>
+          </div>
+          <div className="flex items-center justify-center mb-6">
+            <Button className="text-center flex items-center justify-center">
+              <Link
+                to="/portfolio"
+                className="flex items-center justify-center text-center"
+              >
+                See more Portfolio . . .
+              </Link>
+            </Button>
+          </div>
+        </div>
       </div>
+
+      {/* contact from */}
+      <section className="container my-8">
+        <div className="text-center">
+          <h1 className="text-center text-2xl  font-nunito font-medium bg-gradient-to-r from-purple-700 to-yellow-600 inline-block bg-clip-text text-transparent">
+            Contact Me
+          </h1>
+        </div>
+
+        <div></div>
+      </section>
     </div>
   );
 };
