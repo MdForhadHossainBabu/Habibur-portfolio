@@ -1,5 +1,3 @@
-import { Helmet } from 'react-helmet-async';
-
 import imges1 from '../../assets/Befor.png';
 import image2 from '../../assets/Youtube channel analutic protfoleo.png';
 // import img3 from '../../assets/6.png';
@@ -29,11 +27,8 @@ import img18 from '../../assets/assests/17.JPG';
 
 const Portfolio = () => {
   return (
-    <div>
-      <Helmet>
-        <title>Habibur Rahman | Portfolio</title>
-      </Helmet>
-      <div>
+ 
+      <>
         <span className="flex items-center justify-center">
           <h1 className=" mt-12 bg-gradient-to-r from-rose-600 to-cyan-600 inline-block font-nunito font-bold text-transparent bg-clip-text text-4xl my-4">
             Portfolio Projects
@@ -101,7 +96,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                YouTube Short Views Proof
               </h1>
             </div>
 
@@ -112,7 +107,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Subscribes Proof
               </h1>
             </div>
 
@@ -123,7 +118,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                YouTube Shorts Views Proof
               </h1>
             </div>
 
@@ -134,7 +129,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Rangking keywords
               </h1>
             </div>
 
@@ -145,7 +140,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Instragram Follower Proof
               </h1>
             </div>
 
@@ -156,7 +151,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Instragram Followers Proof
               </h1>
             </div>
 
@@ -167,7 +162,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                YouTube Subscribers Proof
               </h1>
             </div>
 
@@ -178,7 +173,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Instagram Followers Proof
               </h1>
             </div>
 
@@ -189,7 +184,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Google Ads Campaign
               </h1>
             </div>
 
@@ -200,9 +195,20 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Google Ads Campaign
               </h1>
             </div>
+
+            {/* <div className="border md:hover:scale-110 duration-500 shadow-2xl drop-shadow-2xl border-pink-500 rounded-xl">
+              <img
+                className="rounded-xl rounded-b-none border-pink-500 border"
+                src={img12}
+                alt=""
+              />
+              <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
+                Google Ads Campaig
+              </h1>
+            </div> */}
 
             <div className="border md:hover:scale-110 duration-500 shadow-2xl drop-shadow-2xl border-pink-500 rounded-xl">
               <img
@@ -211,18 +217,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
-              </h1>
-            </div>
-
-            <div className="border md:hover:scale-110 duration-500 shadow-2xl drop-shadow-2xl border-pink-500 rounded-xl">
-              <img
-                className="rounded-xl rounded-b-none border-pink-500 border"
-                src={img12}
-                alt=""
-              />
-              <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Google Ads Campaign
               </h1>
             </div>
 
@@ -233,7 +228,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Google Ads Campaign
               </h1>
             </div>
 
@@ -244,7 +239,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Subscribers Proof{' '}
               </h1>
             </div>
 
@@ -255,7 +250,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Channel Views
               </h1>
             </div>
 
@@ -266,7 +261,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Channel Views
               </h1>
             </div>
 
@@ -277,7 +272,7 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+           Subscribe, Video Views & likes
               </h1>
             </div>
             <div className="border md:hover:scale-110 duration-500 shadow-2xl drop-shadow-2xl border-pink-500 rounded-xl">
@@ -287,13 +282,13 @@ const Portfolio = () => {
                 alt=""
               />
               <h1 className="text-sm font-medium font-inter text-center py-2 rounded-b-xl bg-gradient-to-r from-purple-700 to-violet-600 text-white">
-                Payment Proof
+                Realtek Subscibers Proof
               </h1>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </>
+  
   );
 };
 

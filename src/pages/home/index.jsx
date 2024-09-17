@@ -9,11 +9,12 @@ import create from '../../assets/c.png';
 import SEO from '../../assets/s.png';
 import img1 from '../../assets/Befor.png';
 import img2 from '../../assets/Youtube channel analutic protfoleo.png';
-// import img3 from '../../assets/6.png';
 
 import img4 from '../../assets/8.png';
 
 import img5 from '../../assets/3.JPG';
+// import img3 from '../../assets/6.png';
+import Contact from '../contact';
 
 const Home = () => {
   return (
@@ -118,25 +119,25 @@ const Home = () => {
           </h1>
         </span>
         <div className="mt-15 grid grid-cols-1 md:grid-cols-3 gap-8 container my-12">
-          <div className="border-4 shadow-2xl rounded-2xl drop-shadow-2xl hover:scale-105 duration-300">
+          <Link to='/service' className="border-4 shadow-2xl rounded-2xl drop-shadow-2xl hover:scale-105 duration-300">
             <img src={create} alt="" />
             <h1 className="text-xl p-2 font-inter text-center">
               Professional YouTube Channel <br />
               Create and Setup
             </h1>
-          </div>
-          <div className="border-4 rounded-2xl shadow-2xl drop-shadow-2xl hover:scale-105 duration-300">
+          </Link>
+          <Link to='/service' className="border-4 rounded-2xl shadow-2xl drop-shadow-2xl hover:scale-105 duration-300">
             <img src={SEO} alt="" />
             <h1 className="text-xl p-2 font-inter text-center">
               YouTube Video SEO
             </h1>
-          </div>
-          <div className="border-4 shadow-2xl drop-shadow-2xl hover:scale-105 duration-300 rounded-2xl">
+          </Link>
+          <Link to='/service' className="border-4 shadow-2xl drop-shadow-2xl hover:scale-105 duration-300 rounded-2xl">
             <img src={promotion} alt="" />
             <h1 className="text-xl p-2 font-inter text-center">
               YouTube Video Promotion
             </h1>
-          </div>
+          </Link>
         </div>
         <div className="flex items-center justify-center">
           <Button className="text-center flex items-center justify-center">
@@ -221,7 +222,9 @@ const Home = () => {
           </h1>
         </div>
 
-        <div></div>
+        <div>
+          <Contact/>
+        </div>
       </section>
     </div>
   );

@@ -5,8 +5,6 @@ import profile from '../../assets/profiles.JPG';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { TbBrandFiverr } from 'react-icons/tb';
 
-
-
 const About = () => {
   return (
     <div>
@@ -81,10 +79,9 @@ const About = () => {
             className="rounded-full md:w-8/12 mx-auto mt-12 mb-12 md:mb-0"
             src={profile}
             alt=""
-      />
-      <h1 className='text-center mt-4 text-xl font-nunito'>Connect me!</h1>
-      <div className="flex items-center gap-4 mx-auto justify-center mt-2">
-       
+          />
+          <h1 className="text-center mt-4 text-xl font-nunito">Connect me!</h1>
+          <div className="flex items-center gap-4 mx-auto justify-center mt-2">
             <a
               target="_blank"
               className="border-2 p-1 rounded-full hover:bg-white duration-300"
@@ -100,16 +97,15 @@ const About = () => {
               <FaInstagram className="text-2xl hover:text-rose-700 transition-all duration-100" />
             </a>
             <a
-              href="https://www.instagram.com/dmhabiburbd1"
+              href="https://x.com/dmhabiburbd"
               target="_blank"
               className="border-2 p-1 rounded-full hover:bg-white duration-300"
             >
               <FaTwitter className="text-2xl hover:text-rose-700 transition-all duration-100" />
-       </a>
-       
-       
+            </a>
+
             <a
-              href="https://www.instagram.com/dmhabiburbd1"
+              href="https://www.fiverr.com/mostofahb?source=gig_page"
               target="_blank"
               className="border-2 p-1 rounded-full hover:bg-white duration-300"
             >

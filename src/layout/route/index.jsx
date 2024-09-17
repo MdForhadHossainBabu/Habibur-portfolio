@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate } from "react-router-dom";
+import { createBrowserRouter} from "react-router-dom";
 import Main from "../main";
 import Home from "@/pages/home";
 import About from "@/pages/about";
@@ -32,10 +32,6 @@ export const router = createBrowserRouter([
     path: '/contact',
     element:<Contact/>
    },
-   {
-    path: '*',
-    element: <Navigate to='/'/>
-   }
   ]
  }
 ])
