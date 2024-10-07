@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 
 const Main = () => {
   return (
-    <div className="transition-all duration-1000 relative">
+    <div className="relative transition-all duration-1000">
       <div className="h-14">
         <Navbar />
       </div>
@@ -15,10 +15,13 @@ const Main = () => {
       <div>
         <Footer />
       </div>
-      <div className="right-8 bottom-4  fixed rounded-full">
+      <div className="fixed rounded-full right-8 bottom-4">
+        <div className='absolute flex items-center justify-center w-8 h-8 bg-green-600 -z-20 animation left-[1.3px] rounded-full top-[2px]'>
+          
+        </div>
         <span>
           <a href="https://wa.me/8801793741251">
-            <FaWhatsapp className="text-4xl wShadow rounded-full text-green-500 bg-white" />
+            <FaWhatsapp className="p-1 text-4xl text-white bg-green-500 rounded-full" />
           </a>
         </span>
       </div>

@@ -1,0 +1,29 @@
+.strikethrough-text {
+  position: relative;
+  display: inline-block;
+  color: #0EA5E9;
+
+  // Strikethrough effect using a pseudo-element
+  &::after {
+    content: '';
+    position: absolute;
+    height: 2px; // Adjust thickness of the strikethrough line
+    width: 0; // Initial width set to 0
+    left: 0;
+    top: 62%; // Position at the middle
+    background: #ff014f; 
+    transition: width 0.5s ease;
+    transform: translateY(-50%);
+    animation: strikethroughAnimation 0.5s ease 0.2s forwards; 
+  }
+}
+
+// Define the keyframes for the strikethrough animation
+@keyframes strikethroughAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%; // Full width after animation completes
+  }
+}

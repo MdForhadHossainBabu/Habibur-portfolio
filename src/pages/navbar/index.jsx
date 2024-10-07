@@ -5,12 +5,14 @@ import {
 } from '@/components/ui/sheet';
 import { Link, NavLink } from 'react-router-dom';
 import { RiMenuUnfold4Line2 } from 'react-icons/ri';
+import ThemeToggle from '@/layout/ThemeToggle';
+import { useState } from 'react';
 
 const navlinksItem = (
   <>
     <NavLink
       className={({ isActive }) =>
-        isActive ? 'text-blue-300 font-medium border-b-2 border-b-rose-600' : ''
+        isActive ? ' font-medium   strikethrough-text' : 'text-white'
       }
       to="/"
     >
@@ -18,7 +20,7 @@ const navlinksItem = (
     </NavLink>
     <NavLink
       className={({ isActive }) =>
-        isActive ? 'text-blue-300 font-medium border-b-2 border-b-rose-600' : ''
+        isActive ? ' font-medium  strikethrough-text' : 'text-white'
       }
       to="/about"
     >
@@ -26,7 +28,7 @@ const navlinksItem = (
     </NavLink>
     <NavLink
       className={({ isActive }) =>
-        isActive ? 'text-blue-300 font-medium border-b-2 border-b-rose-600' : ''
+        isActive ? 'font-medium  strikethrough-text' : 'text-white'
       }
       to="/service"
     >
@@ -34,7 +36,7 @@ const navlinksItem = (
     </NavLink>
     <NavLink
       className={({ isActive }) =>
-        isActive ? 'text-blue-300 font-medium border-b-2 border-b-rose-600' : ''
+        isActive ? ' font-medium  strikethrough-text' : 'text-white'
       }
       to="/portfolio"
     >
@@ -43,12 +45,13 @@ const navlinksItem = (
 
     <NavLink
       className={({ isActive }) =>
-        isActive ? 'text-blue-300 font-medium border-b-2 border-b-rose-600' : ''
+        isActive ? ' font-medium  strikethrough-text' : 'text-white'
       }
       to="/contact"
     >
       Contact
     </NavLink>
+    <ThemeToggle/>
   </>
 );
 
@@ -108,36 +111,50 @@ const NavLinks = (
     </NavLink>
   </>
 );
+
+
 const Navbar = () => {
+  const [active, setActive] = useState(false);
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 20) {
+      setActive(true);
+    } else {
+      setActive(false)
+    }
+  })
+  
+  
+  
+  
   return (
-    <div className="fixed w-full z-30  py-2 text-white rounded-lg bg-slate-800 navShadow">
+    <div className={`fixed z-30 w-full py-3 transition-colors duration-150 bg-slate-600  ${active ? '  text-white' : '!text-black'}`}>
       <nav className="flex items-center justify-between px-4">
         <div>
-          <div className="flex items-center gap-1 uppercase text-2xl font-bold text-rose-60">
-            <Link to='/' className="font-bold bg-gradient-to-r from-rose-500 via-pink-500 to-cyan-500 inline-block text-transparent bg-clip-text tracking-tighter font-fira">
+          <div className="flex items-center gap-1 text-2xl font-bold uppercase text-rose-60">
+            <Link to='/' className="inline-block font-bold tracking-tighter text-transparent bg-gradient-to-r from-rose-500 via-pink-500 to-cyan-500 bg-clip-text font-fira">
               Habibur Rahman
             </Link>
           </div>
         </div>
-        <div className="md:hidden flex">
-          <Sheet className="md:hidden flex">
+        <div className="flex md:hidden">
+          <Sheet className="flex md:hidden">
             <SheetTrigger className="w-12 ">
-              <RiMenuUnfold4Line2 className="text-3xl opacity-75 w-full" />
+              <RiMenuUnfold4Line2 className="w-full text-3xl opacity-75" />
             </SheetTrigger>
-            <SheetContent className="md:hidden flex">
+            <SheetContent className="flex md:hidden">
               <div className="mt-16">
                 <h1 className="uppercase font-fira font-extrabold text-2xl tracking-[12px] bg-gradient-to-r from-rose-500 via-pink-500 to-cyan-500 inline-block text-transparent bg-clip-text">
                   Habibur.
                 </h1>
-                <div className="flex flex-col gap-3 mt-20 transition-all duration-300 font-medium tracking-widest font-fira">
+                <div className="flex flex-col gap-3 mt-20 font-medium tracking-widest transition-all duration-300 font-fira">
                   {NavLinks}
                 </div>
               </div>
             </SheetContent>
           </Sheet>
         </div>
-        <div className="hidden md:flex  items-center gap-4 font-fira ">
-          <ul className="flex items-center gap-4 border px-8 rounded-full py-1">{navlinksItem}</ul>
+        <div className="items-center hidden gap-4 md:flex font-fira ">
+          <ul className="flex items-center gap-6 px-8">{navlinksItem}</ul>
         </div>
       </nav>
     </div>

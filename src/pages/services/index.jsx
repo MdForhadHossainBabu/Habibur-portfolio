@@ -23,15 +23,15 @@ const Services = () => {
       <Helmet>
         <title>Habibur Rahman | Service</title>
       </Helmet>
-      <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-6">
+      <div className="container grid grid-cols-1 gap-6 my-6 md:grid-cols-2 lg:grid-cols-3">
         <div className="cursor-pointer" onClick={() => setOpen(!open)}>
           <img src={img1} alt="" />
-          <h1 className="text-2xl font-medium font-nunito py-3">
+          <h1 className="py-3 text-2xl font-medium font-nunito">
             I will create and setup YouTube channel ...
           </h1>
 
           {open && (
-            <div className="border-2 px-4 rounded-2xl bg-white">
+            <div className="order-2 px-4 bg-white dark:bg-slate-900 rounded-2xl">
               <p className="pt-4">
                 Are you in need of a professional expert to create, set up,
                 design, and optimize your YouTube channel with a custom logo,
@@ -44,7 +44,7 @@ const Services = () => {
                 field, I’m here to ensure your channel is set up for success.
               </p>
 
-              <h1 className="font-medium pt-4 pb-3">
+              <h1 className="pt-4 pb-3 font-medium">
                 My Professional Services Include:
               </h1>
               <div className="pl-4 text-[14px]">
@@ -64,7 +64,7 @@ const Services = () => {
                 <li>Custom URL Setup</li>
                 <li>Subscriber Reminders</li>
               </div>
-              <h1 className="font-medium pt-5 pb-3">
+              <h1 className="pt-5 pb-3 font-medium">
                 Why Choose My High-Quality Service?
               </h1>
               <div className="pl-2">
@@ -79,11 +79,11 @@ const Services = () => {
                 Order Now and Let’s Elevate Your YouTube Channel!
               </h1>
 
-              <h1 className="py-4 font-bold text-xl text-rose-500">
+              <h1 className="py-4 text-xl font-bold text-rose-500">
                 Freequently Asked Question (FAQ){' '}
               </h1>
 
-              <h1 className="py-3 font-bold text-xl text-rose-800 ">
+              <h1 className="py-3 text-xl font-bold text-rose-800 ">
                 Why Choose Me for YouTube Channel Creation, Design, and Setup?
               </h1>
 
@@ -96,7 +96,7 @@ const Services = () => {
               </p>
 
               {/* 2 */}
-              <h1 className="py-4 font-bold text-xl text-rose-800">
+              <h1 className="py-4 text-xl font-bold text-rose-800">
                 What Are the Benefits of This Service?
               </h1>
 
@@ -106,7 +106,7 @@ const Services = () => {
                 provide a service that aligns perfectly with your vision,
                 ensuring your channel stands out.
               </p>
-              <h1 className="py-4 font-bold text-xl text-rose-800">
+              <h1 className="py-4 text-xl font-bold text-rose-800">
                 What Are Your Skills and Experience?
               </h1>
 
@@ -118,11 +118,11 @@ const Services = () => {
                 enhancing my expertise in this field.
               </p>
 
-              <h1 className="font-bold py-4 text-rose-800">
+              <h1 className="py-4 font-bold text-rose-800">
                 What Do You Need from Me?
               </h1>
               <span>To get started, I will need:</span>
-              <div className="pl-3 pb-6">
+              <div className="pb-6 pl-3">
                 <li>Your preferred channel name</li>
                 <li>Any specific design preferences or color schemes</li>
                 <li>Details about your content or niche</li>
@@ -140,12 +140,12 @@ const Services = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <img src={img2} alt="" />
-          <h1 className="text-2xl font-medium font-nunito py-3">
+          <h1 className="py-3 text-2xl font-medium font-nunito">
             I will do YouTube video and channel SEO to improve for top ranking
             ...
           </h1>
           {isOpen && (
-            <div className="border-2 px-4 rounded-2xl bg-white">
+            <div className="px-4 bg-white border-2 rounded-2xl dark:bg-slate-900">
               <p>
                 Are you struggling to get your videos noticed? No matter how
                 amazing your content is, without the right SEO strategy—titles,
@@ -159,7 +159,7 @@ const Services = () => {
                 a steady and engaged viewer base.
               </p>
               <h1 className="font-bold">What I Will Provide:</h1>
-              <div className="text-sm py-3">
+              <div className="py-3 text-sm">
                 <li>
                   SEO-Friendly Title: Crafted to capture attention and improve
                   ranking.
@@ -186,7 +186,7 @@ const Services = () => {
                 </li>
               </div>
               <h1 className="text-xl font-bold">Why Hire Me?</h1>
-              <div className="pl-2 text-sm py-3">
+              <div className="py-3 pl-2 text-sm">
                 <li>
                   100% Real Organic Work: No shortcuts, just proven strategies.
                 </li>
@@ -202,20 +202,20 @@ const Services = () => {
 
               <h3 className="py-3 font-bold tracking-wider">Thank You!</h3>
 
-              <h1 className="py-4 font-bold text-xl text-rose-500">
+              <h1 className="py-4 text-xl font-bold text-rose-500">
                 Freequently Asked Question (FAQ){' '}
               </h1>
 
               <h1 className="font-bold text-rose-800">
                 Do You Need Access to My YouTube Channel?
               </h1>
-              <p className="pl-2 py-2">
+              <p className="py-2 pl-2">
                 Yes, I will need access to your channel as an editor or manager
                 to effectively implement the SEO strategies and optimizations.
               </p>
 
               <h1 className="font-bold text-rose-800">What is YouTube SEO? </h1>
-              <p className="pl-2 py-2">
+              <p className="py-2 pl-2">
                 YouTube SEO (Search Engine Optimization) is the process of
                 optimizing your videos with specific keywords, descriptions, and
                 tags to improve their ranking on YouTube’s search engine. This
@@ -225,7 +225,7 @@ const Services = () => {
               <h1 className="font-bold text-rose-800">
                 What Are the Benefits of This Service?{' '}
               </h1>
-              <p className="pl-2 py-2">
+              <p className="py-2 pl-2">
                 By utilizing effective SEO, your videos will be ranked higher on
                 YouTube, reaching niche-related audiences organically. This
                 leads to increased visibility, more views, and a growing
@@ -233,8 +233,7 @@ const Services = () => {
               </p>
               <h1 className="font-bold text-rose-800">Do You Offer YouTube Channel SEO? </h1>
               <p
-                className="pl-2 pb-6 py-3
-              "
+                className="py-3 pb-6 pl-2 "
               >
                 Yes, I specialize in YouTube channel SEO, ensuring that your
                 entire channel—along with individual videos—is optimized to
@@ -246,11 +245,11 @@ const Services = () => {
         </div>
         <div className="cursor-pointer" onClick={() => setOpens(!opens)}>
           <img src={img3} alt="" />
-          <h1 className="text-2xl font-medium font-nunito py-3">
+          <h1 className="py-3 text-2xl font-medium font-nunito">
             I will create and setup YouTube channel ...
           </h1>
           {opens && (
-            <div className="pb-12 border-2 px-4 rounded-2xl bg-white">
+            <div className="px-4 pb-12 bg-white border-2 rounded-2xl dark:bg-slate-900">
               <p>
                 Are you looking for high-quality promotion services for your
                 YouTube videos? My Google Ads service is perfect for promoting
@@ -259,13 +258,13 @@ const Services = () => {
                 engagement.
               </p>
 
-              <h1 className="font-bold py-3">What we offer:</h1>
+              <h1 className="py-3 font-bold">What we offer:</h1>
               <p className="pl-2 text-sm">
                 <li>Creation of professional quality advertising campaigns</li>
                 <li>Promote your video through Google Ads</li>
                 <li>Full transparency and reporting on campaign progress</li>
               </p>
-              <h1 className="font-bold py-3">Why choose my service?</h1>
+              <h1 className="py-3 font-bold">Why choose my service?</h1>
               <p>
                 I am skilled in Google Ads with extensive experience, dedicated
                 to reaching the right audience for your videos Every campaign I
@@ -275,7 +274,7 @@ const Services = () => {
               <p className="py-2">
                 Take your video to the next level and contact me today!
               </p>
-              <h1 className="font-bold py-3">
+              <h1 className="py-3 font-bold">
                 Types of videos we don't promote:
               </h1>
               <p className="pl-2 text-sm">
@@ -283,7 +282,7 @@ const Services = () => {
                 <li>Hateful or discriminatory content</li>
                 <li>Content that promotes or incites violence</li>
               </p>
-              <h1 className="font-bold py-2">Requirements:</h1>
+              <h1 className="py-2 font-bold">Requirements:</h1>
               <li className="pl-2 text-sm">
                 Link to specific YouTube video to promote
               </li>
@@ -294,8 +293,8 @@ const Services = () => {
                 regulations set by YouTube and Fiverr.
               </h5>
 
-              <div className="border-b border-b-black w-full pt-2"></div>
-              <h1 className="font-bold text-2xl text-rose-500 py-4">
+              <div className="w-full pt-2 border-b border-b-black"></div>
+              <h1 className="py-4 text-2xl font-bold text-rose-500">
                 Freequently Asked Question (FAQ){' '}
               </h1>
 
@@ -316,7 +315,7 @@ const Services = () => {
                 What types of videos do you not promote?
               </h1>
               <p className="py-2">
-                <p className="pl-2 text-sm py-2">
+                <p className="py-2 pl-2 text-sm">
                   <li>Indecent or sexually suggestive material</li>
                   <li>Hateful or discriminatory content</li>
                   <li>Content that promotes violence or incites violence</li>

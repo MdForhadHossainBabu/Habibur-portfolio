@@ -4,12 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.navShadow {
-  box-shadow: 2px 2px aquamarine;
-}
-.wShadow {
-  box-shadow: 2px 2px 2px 2px purple;
-}
 
 @layer base {
   :root {
@@ -74,5 +68,17 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+
+.animation {
+  animation: ping 1.6s cubic-bezier(0, 0, 0.3, 0.6) infinite;
+}
+@keyframes ping {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
   }
 }
