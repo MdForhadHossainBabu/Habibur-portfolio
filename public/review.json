@@ -1,0 +1,273 @@
+[
+
+    {
+
+        "id": 1,
+
+        "name": "Emma Thompson",
+
+        "countryFlag": "🇺🇸",
+
+        "photo": "https://example.com/photos/kara.jpg",
+
+        "countryName": "United States",
+
+        "rating": 5,
+
+        "description": "Another amazing project with Habibur Rahman! I'm so grateful I found him and will continue working together in the future. My YouTube videos have been getting WAY more views (was like 50-100 per video before and now they are getting 1000+) and it's helped me feel more confident that eyes are seeing my work!"
+
+    },
+
+    {
+
+        "id": 2,
+
+        "name": "Henry Robinson",
+
+        "countryFlag": "🇺🇸",
+
+        "photo": "https://example.com/photos/james.jpg",
+
+        "countryName": "United States",
+
+        "rating": 5,
+
+        "description": "Habibur was very helpful and professional. The only reason I haven’t given him a 5-star review is because I have yet to see any results from his work. He is very upfront about his SEO optimization taking several weeks to register with YouTube but it’s been 3 weeks and none of the videos he optimized have seen any movement in comments, likes, or new subscribers. A few videos saw an immediate bump of 400-500 views within the first 24-72 hours but nothing more beyond that. I’m still hopeful that I will see some improvement on at least one or two videos, but as of now, I can’t say that his work has helped my channel grow at all."
+
+    },
+
+    {
+
+        "id": 3,
+
+        "name": "Olivia Martinez",
+
+        "countryFlag": "🇨🇦",
+
+        "photo": "https://example.com/photos/dylan.jpg",
+
+        "countryName": "Canada",
+
+        "rating": 5,
+
+        "description": "He was really informative in explaining the way the YouTube algorithm works. He explained the advantages of getting a social media ring which I plan to get in the future. He also went above and beyond to optimize my channel. Usually, SEO takes a few weeks to see results, so I am excited to see how it works out. Thank you, Habibur, for your thoughtful service. I will definitely purchase the social media ring when I am ready."
+
+    },
+
+    {
+
+        "id": 4,
+
+        "name": "Nathaniel Harris",
+
+        "countryFlag": "🇧🇪",
+
+        "photo": "https://example.com/photos/linda.jpg",
+
+        "countryName": "Belgium",
+
+        "rating": 5,
+
+        "description": "I got 3 SEO before Michael, but nobody could optimize my video properly; I only saw a few views and subscribers. I’m glad I found Michael. He is super professional; I feel like I get a free course every time I have questions. Also, he teaches me step by step in a very detailed way how to have a successful channel…. Highly, highly recommend!"
+
+    },
+
+    {
+
+        "id": 5,
+
+        "name": "Elena Costanzo",
+
+        "countryFlag": "🇺🇸",
+
+        "photo": "https://example.com/photos/daniel.jpg",
+
+        "countryName": "United States",
+
+        "rating": 5,
+
+        "description": "Well worth the money. My new videos are already generating more views than normal due to the channel optimization. SEO takes a while to kick in, so I don't have much info on that, but I can say that everything looks good on my end so far!"
+
+    },
+
+    {
+
+        "id": 6,
+
+        "name": "Mason Thompson",
+
+        "countryFlag": "🇮🇹",
+
+        "photo": "https://example.com/photos/sofia.jpg",
+
+        "countryName": "Italy",
+
+        "rating": 5,
+
+        "description": "Thanks to Habibur Rahman, my YouTube channel has seen a significant increase in visibility! The promotional strategies he used really worked. I'm thrilled with the results!"
+
+    },
+
+    {
+
+        "id": 7,
+
+        "name": "Sebastian Grey",
+
+        "countryFlag": "🇬🇧",
+
+        "photo": "https://example.com/photos/michael.jpg",
+
+        "countryName": "United Kingdom",
+
+        "rating": 5,
+
+        "description": "I am really impressed with the service provided by Habibur Rahman. The promotional techniques were spot on, and I saw an immediate increase in views and engagement!"
+
+    },
+
+    {
+
+        "id": 8,
+
+        "name": "Sebastian Grey",
+
+        "countryFlag": "🇷🇺",
+
+        "photo": "https://example.com/photos/anya.jpg",
+
+        "countryName": "Russia",
+
+        "rating": 5,
+
+        "description": "Amazing work by Habibur Rahman! My YouTube videos received more attention than ever before. I can't wait to see where this journey takes me next!"
+
+    },
+
+    {
+
+        "id": 9,
+
+        "name": "Olivia Wright",
+
+        "countryFlag": "🇺🇸",
+
+        "photo": "https://example.com/photos/emily.jpg",
+
+        "countryName": "United States",
+
+        "rating": 5,
+
+        "description": "Working with Habibur Rahman was a game-changer for my channel! His promotional strategies really made a difference. Highly recommend his services!"
+
+    },
+
+    {
+
+        "id": 10,
+
+        "name": "Lucas Bennett",
+
+        "countryFlag": "🇪🇸",
+
+        "photo": "https://example.com/photos/carlos.jpg",
+
+        "countryName": "Spain",
+
+        "rating": 5,
+
+        "description": "Habibur Rahman is phenomenal! My channel is thriving, and the increase in views is remarkable. I appreciate all the guidance and support!"
+
+    },
+
+    {
+
+        "id": 11,
+
+        "name": "Sophie Carter",
+
+        "countryFlag": "🇩🇪",
+
+        "photo": "https://example.com/photos/olivia.jpg",
+
+        "countryName": "Germany",
+
+        "rating": 5,
+
+        "description": "I was skeptical at first, but Habibur Rahman's Instagram promotion services exceeded my expectations. My follower count has doubled!"
+
+    },
+
+    {
+
+        "id": 12,
+
+        "name": "Ella Brooks",
+
+        "countryFlag": "🇮🇹",
+
+        "photo": "https://example.com/photos/lucas.jpg",
+
+        "countryName": "Italy",
+
+        "rating": 5,
+
+        "description": "Fantastic service! Thanks to Habibur Rahman, my Instagram engagement has skyrocketed. I highly recommend his expertise!"
+
+    },
+
+    {
+
+        "id": 13,
+
+        "name": "Fatima Khalil",
+
+        "countryFlag": "🇵🇰",
+
+        "photo": "https://example.com/photos/fatima.jpg",
+
+        "countryName": "Pakistan",
+
+        "rating": 5,
+
+        "description": "Incredible results from Habibur Rahman's Instagram promotion! I've seen a significant increase in likes and followers. Will definitely use his services again!"
+
+    },
+
+    {
+
+        "id": 14,
+
+        "name": "Aiden Matthews",
+
+        "countryFlag": "🇺🇸",
+
+        "photo": "https://example.com/photos/kara.jpg",
+
+        "countryName": "United States",
+
+        "rating": 5,
+
+        "description": "Habibur Rahman is an expert in his field! His strategies have brought new life to my social media presence. Highly recommend!"
+
+    },
+
+    {
+
+        "id": 15,
+
+        "name": "Chloe Martin",
+
+        "countryFlag": "🇨🇦",
+
+        "photo": "https://example.com/photos/djmickeyd.jpg",
+
+        "countryName": "Canada",
+
+        "rating": 5,
+
+        "description": "Working with Habibur Rahman was a fantastic experience. He was patient and informative, guiding me through every step of the process. My views have increased tremendously!"
+
+    }
+
+]

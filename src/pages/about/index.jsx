@@ -11,20 +11,19 @@ const About = () => {
       <Helmet>
         <title>Habibur Rahman | About</title>
       </Helmet>
-      <div className="grid grid-cols-1 md:grid-cols-2 mx-auto container mt-8">
+      <div className="container grid grid-cols-1 mx-auto mt-8 md:grid-cols-2">
         <div className="mx-auto">
           <h1 className="text-2xl tracking-wider pl-[2px] font-nunito">
             Hi, I'm
           </h1>
           <h1
-            className="uppercase text-2xl md:text-4xl font-nunito font-bold bg-gradient-to-r from-rose-500 to-cyan-500 inline-block text-transparent bg-clip-text py-2
-      "
+            className="inline-block py-2 text-2xl font-bold text-transparent uppercase md:text-4xl font-nunito bg-gradient-to-r from-rose-500 to-cyan-500 bg-clip-text "
           >
             md habibur rahman
           </h1>
           <br />
 
-          <h1 className="text-xl md:text-2xl bg-gradient-to-r from-cyan-500 to-rose-600 inline-block text-transparent bg-clip-text font-medium font-inter">
+          <h1 className="inline-block text-xl font-medium text-transparent md:text-2xl bg-gradient-to-r from-cyan-500 to-rose-600 bg-clip-text font-inter">
             <Typewriter
               words={[
                 'Professional Digital Marketer',
@@ -76,40 +75,40 @@ const About = () => {
 
         <div className="mx-auto">
           <img
-            className="rounded-full md:w-8/12 mx-auto mt-12 mb-12 md:mb-0"
+            className="mx-auto mt-12 mb-12 rounded-full md:w-8/12 md:mb-0"
             src={profile}
             alt=""
           />
-          <h1 className="text-center mt-4 text-xl font-nunito">Connect me!</h1>
-          <div className="flex items-center gap-4 mx-auto justify-center mt-2">
+          <h1 className="mt-4 text-xl text-center font-nunito">Connect me!</h1>
+          <div className="flex items-center justify-center gap-4 mx-auto mt-2">
             <a
               target="_blank"
-              className="border-2 p-1 rounded-full hover:bg-white duration-300"
-              href="https://www.facebook.com/dmhabiburbd1"
+              className="p-1 duration-300 border-2 rounded-full hover:bg-white"
+              href="https://www.facebook.com/freelancerhabibur1"
             >
-              <FaFacebook className="text-2xl hover:text-blue-700 transition-all duration-100" />
+              <FaFacebook className="text-2xl transition-all duration-100 hover:text-blue-700" />
             </a>
             <a
               href="https://www.instagram.com/dmhabiburbd1"
               target="_blank"
-              className="border-2 p-1 rounded-full hover:bg-white duration-300"
+              className="p-1 duration-300 border-2 rounded-full hover:bg-white"
             >
-              <FaInstagram className="text-2xl hover:text-rose-700 transition-all duration-100" />
+              <FaInstagram className="text-2xl transition-all duration-100 hover:text-rose-700" />
             </a>
             <a
               href="https://x.com/dmhabiburbd"
               target="_blank"
-              className="border-2 p-1 rounded-full hover:bg-white duration-300"
+              className="p-1 duration-300 border-2 rounded-full hover:bg-white"
             >
-              <FaTwitter className="text-2xl hover:text-rose-700 transition-all duration-100" />
+              <FaTwitter className="text-2xl transition-all duration-100 hover:text-rose-700" />
             </a>
 
             <a
               href="https://www.fiverr.com/mostofahb?source=gig_page"
               target="_blank"
-              className="border-2 p-1 rounded-full hover:bg-white duration-300"
+              className="p-1 duration-300 border-2 rounded-full hover:bg-white"
             >
-              <TbBrandFiverr className="text-2xl hover:text-green-700 transition-all duration-100" />
+              <TbBrandFiverr className="text-2xl transition-all duration-100 hover:text-green-700" />
             </a>
           </div>
         </div>

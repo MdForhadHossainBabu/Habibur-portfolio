@@ -136,7 +136,11 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
+        
         <div className="flex md:hidden">
+          <div className='pt-1 mr-4'>
+          <ThemeToggle />
+          </div>
           <Sheet className="flex md:hidden">
             <SheetTrigger className="w-12 ">
               <RiMenuUnfold4Line2 className="w-full text-3xl opacity-75" />

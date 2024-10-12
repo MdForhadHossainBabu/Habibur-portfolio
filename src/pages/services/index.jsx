@@ -246,7 +246,7 @@ const Services = () => {
         <div className="cursor-pointer" onClick={() => setOpens(!opens)}>
           <img src={img3} alt="" />
           <h1 className="py-3 text-2xl font-medium font-nunito">
-            I will create and setup YouTube channel ...
+            I will do YouTube Video Promotion with google ads ...
           </h1>
           {opens && (
             <div className="px-4 pb-12 bg-white border-2 rounded-2xl dark:bg-slate-900">

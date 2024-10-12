@@ -16,10 +16,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        'service_hngbwn2',
-        'template_rm8k0af',
+        'service_2updl9s',
+        'template_zxsgvvf',
         form.current,
-        'GA09GX75XGTDKu-x6'
+        'IeNnZ-STcBwLpo9B-'
       )
       .then(
         () => {
@@ -45,14 +45,14 @@ const Contact = () => {
         </h1>
       </div>
       <form
-        className="max-w-screen-md mx-auto space-y-3 mb-12"
+        className="max-w-screen-md mx-auto mb-12 space-y-3"
         ref={form}
         onSubmit={sendEmail}
       >
         <label htmlFor="Name">Name</label>
         <Input placeholder="Type Your Name*" type="name" name="name" required />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-5">
+        <div className="grid grid-cols-1 gap-5 mx-auto md:grid-cols-2">
           <div className="flex-1">
             <label htmlFor="Email">Email</label>
             <Input name="email" type="email" placeholder="Type Your Email*" />
